@@ -1,0 +1,7 @@
+bin/
+build_dir/target-mips_34kc_musl-1.1.14/root-ar71xx/
+dl/
+tmp/
+packages/Packages
+packages/Packages.gz
+staging_dir/host/.prereq-build
