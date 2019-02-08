@@ -10,6 +10,7 @@ define Profile/RAMBUTAN
         PACKAGES:= \
 		avahi-daemon-service-http avahi-daemon-service-ssh \
 		avahi-nodbus-daemon \
+		ethtool \
 		ip \
 		iwinfo \
 		jansson \
@@ -23,7 +24,18 @@ define Profile/RAMBUTAN
 		kmod-scsi-core \
 		kmod-slhc \
 		kmod-spi-bitbang kmod-spi-dev kmod-spi-gpio kmod-spi-gpio-custom \
-		kmod-usb-core kmod-usb-storage kmod-usb2 \
+		kmod-usb-core \
+		kmod-usb-serial kmod-usb-serial-ark3116 kmod-usb-serial-belkin \
+		kmod-usb-serial-ch341 kmod-usb-serial-cp210x \
+		kmod-usb-serial-cypress-m8 kmod-usb-serial-ftdi \
+		kmod-usb-serial-garmin kmod-usb-serial-ipw kmod-usb-serial-keyspan \
+		kmod-usb-serial-mct kmod-usb-serial-mos7720 kmod-usb-serial-option \
+		kmod-usb-serial-oti6858 kmod-usb-serial-pl2303 \
+		kmod-usb-serial-qualcomm kmod-usb-serial-sierrawireless \
+		kmod-usb-serial-simple kmod-usb-serial-ti-usb kmod-usb-serial-visor \
+		kmod-usb-serial-wwan \
+		kmod-usb-storage \
+		kmod-usb2 \
 		kmod-w1 kmod-w1-gpio-custom kmod-w1-master-gpio \
 		libavahi-nodbus-support \
 		libdaemon \
@@ -41,6 +53,7 @@ define Profile/RAMBUTAN
 		qca-mux-ctl \
 		rpcd \
 		uhttpd uhttpd-mod-lua uhttpd-mod-ubus \
+		usbutils \
 		wireless-tools \
 		-ppp -ppp-mod-pppoe
 endef
