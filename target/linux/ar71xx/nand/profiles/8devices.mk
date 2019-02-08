@@ -50,6 +50,7 @@ define Profile/RAMBUTAN
 		luci-lib-nixio luci-mod-admin-full luci-proto-ipv6 luci-proto-ppp \
 		luci-theme-bootstrap \
 		maccalc \
+		picocom \
 		qca-mux-ctl \
 		rpcd \
 		ser2net \
