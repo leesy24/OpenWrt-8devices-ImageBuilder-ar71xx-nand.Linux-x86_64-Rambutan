@@ -52,6 +52,7 @@ define Profile/RAMBUTAN
 		maccalc \
 		qca-mux-ctl \
 		rpcd \
+		ser2net \
 		uhttpd uhttpd-mod-lua uhttpd-mod-ubus \
 		usbutils \
 		wireless-tools \
