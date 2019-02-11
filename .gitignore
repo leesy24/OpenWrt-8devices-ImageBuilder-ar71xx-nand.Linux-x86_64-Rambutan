@@ -2,6 +2,7 @@ bin/
 build_dir/target-mips_34kc_musl-1.1.14/root-ar71xx/
 dl/
 tmp/
+build_dir/target-mips_34kc_musl-1.1.14/linux-ar71xx_nand/root.squashfs*
 packages/Packages
 packages/Packages.gz
 staging_dir/host/.prereq-build
