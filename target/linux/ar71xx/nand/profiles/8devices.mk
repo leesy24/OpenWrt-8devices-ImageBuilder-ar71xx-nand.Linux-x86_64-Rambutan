@@ -58,7 +58,7 @@ define Profile/RAMBUTAN
 		usbutils \
 		wireless-tools \
 		-ppp -ppp-mod-pppoe
-	FILES=files/Rambutan/
+	FILES=files/Rambutan/copy/
 endef
 
 define Profile/RAMBUTAN/Description
