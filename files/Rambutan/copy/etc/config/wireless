@@ -1,0 +1,18 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option path 'platform/qca955x_wmac'
+	option channel 'auto'
+	option htmode 'HT40'
+	option country 'US'
+	option txpower '21'
+	option hwmode '11g'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option network 'ap'
+	option encryption 'psk2'
+	option key 'www.dsintek.co.kr'
+	option ssid 'DASAN_M'
+
