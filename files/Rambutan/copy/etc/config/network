@@ -6,7 +6,6 @@ config interface 'loopback'
 	option netmask '255.0.0.0'
 
 config globals 'globals'
-	option ula_prefix 'fdcc:2420:5344::/48'
 
 config interface 'lan'
 	option type 'bridge'
@@ -20,4 +19,5 @@ config interface 'ap'
 	option proto 'static'
 	option ipaddr '192.168.3.1'
 	option netmask '255.255.255.0'
+	option delegate '0'
 
