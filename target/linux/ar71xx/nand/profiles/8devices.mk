@@ -57,6 +57,7 @@ define Profile/RAMBUTAN
 		uhttpd uhttpd-mod-lua uhttpd-mod-ubus \
 		usbutils \
 		wireless-tools \
+		-ip6tables -odhcpd -odhcp6c \
 		-ppp -ppp-mod-pppoe
 	FILES=files/Rambutan/copy/
 endef

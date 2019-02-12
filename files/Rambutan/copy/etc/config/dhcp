@@ -24,11 +24,6 @@ config dhcp 'wan'
 	option interface 'wan'
 	option ignore '1'
 
-config odhcpd 'odhcpd'
-	option maindhcp '0'
-	option leasefile '/tmp/hosts/odhcpd'
-	option leasetrigger '/usr/sbin/odhcpd-update'
-
 config dhcp 'ap'
 	option start '100'
 	option leasetime '12h'
