@@ -45,6 +45,7 @@ define Profile/RAMBUTAN
 		libpthread librt \
 		libubus-lua \
 		libuci-lua \
+		lrzsz \
 		lua \
 		luci luci-app-firewall luci-base luci-lib-ip luci-lib-jsonc \
 		luci-lib-nixio luci-mod-admin-full luci-proto-ipv6 luci-proto-ppp \
