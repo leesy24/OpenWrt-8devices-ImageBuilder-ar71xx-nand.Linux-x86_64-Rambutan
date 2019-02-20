@@ -1,0 +1,11 @@
+{
+	"mux_list": [
+		{"gpio" : 21, "signal_direction": "IN", "gpio_direction" : "IN","signal": "UART1_RD"},
+		{"gpio" : 22, "signal_direction": "OUT", "gpio_direction" : "OUT","signal": "UART1_TD"}
+		],
+
+      	"functions": [
+
+		]	
+}
+
