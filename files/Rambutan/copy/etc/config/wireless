@@ -4,9 +4,9 @@ config wifi-device 'radio0'
 	option path 'platform/qca955x_wmac'
 	option channel 'auto'
 	option htmode 'HT40'
-	option country 'US'
 	option txpower '21'
 	option hwmode '11g'
+	option country 'KR'
 
 config wifi-iface
 	option device 'radio0'
